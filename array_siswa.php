@@ -8,6 +8,12 @@
     $nilai_uas = $_GET['nilai_uas'];
     $nilai_tugas = $_GET['nilai_tugas'];
     echo 'Proses : '.$proses;
+    echo '<br/>Nama : '.$nama_siswa;
+    echo '<br/>NIM : '.$nim;
+    echo '<br/>Mata Kuliah : '.$mata_kuliah;
+    echo '<br/>Nilai UTS : '.$nilai_uts;
+    echo '<br/>Nilai UAS : '.$nilai_uas;
+    echo '<br/>Nilai Tugas Praktikum : '.$nilai_tugas;
     
  ?>
 
@@ -46,13 +52,8 @@
         echo '<td>'.number_format($nilai_akhir,2,',','.').'</td>';
         echo '<tr/>';
         $nomor++;
-        }
-        echo '<br/>Nama : '.$nama_siswa;
-        echo '<br/>NIM : '.$nim;
-        echo '<br/>Mata Kuliah : '.$mata_kuliah;
-        echo '<br/>Nilai UTS : '.$nilai_uts;
-        echo '<br/>Nilai UAS : '.$nilai_uas;
-        echo '<br/>Nilai Tugas Praktikum : '.$nilai_tugas;
+        
+        
     ?>
 </tbody>
 </table>
