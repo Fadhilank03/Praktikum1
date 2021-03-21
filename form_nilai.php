@@ -19,17 +19,17 @@
 <form>
 	<div class="form-nilai">
 		<label for="nama">Nama</label>
-		<input type="text" id="nama" class="form-control" placeholder="Nama">
+		<input type="text" id="nama" class="form-control" placeholder="Nama" name="nama">
 	</div>
  
 	<div class="form-nilai">
-		<label for="umur">Umur</label>
-		<input type="number" id="nim" class="form-control" placeholder="NIM">
+		<label for="umur">NIM</label>
+		<input type="number" id="nim" class="form-control" placeholder="NIM" name="nim">
 	</div>
  
 	<div class="form-nilai">
 		<label for="matkul">Mata Kuliah</label>
-		<select id="matkul" class="form-control">
+		<select id="matkul" class="form-control" name="matkul">
             <option value="DDP">Dasar-Dasar Pemrograman</option>
             <option value="BDI">Basis Data I</option>
             <option value="WEB1">Pemrograman Web</option>
@@ -46,7 +46,7 @@
         <input type="number" class="form-control" placeholder="" name="nilai_tugas">
     </div> 
  
-	<button type="submit" class="btn btn-primary">Submit</button>
+	<button type="submit" class="btn btn-primary" name="proses" value="save">Submit</button>
 </form>
 
 </body>
