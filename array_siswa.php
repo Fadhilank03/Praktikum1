@@ -52,7 +52,7 @@
         echo '<td>'.number_format($nilai_akhir,2,',','.').'</td>';
         echo '<tr/>';
         $nomor++;
-        
+        }
         
     ?>
 </tbody>
